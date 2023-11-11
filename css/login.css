@@ -1,0 +1,22 @@
+#login_box{
+    width: 50%;
+    margin:auto;
+    font:3vw monospace;
+    text-align: center;
+    padding: 20px;
+    background-color:#a83297;
+}
+label{
+    color: beige;
+}
+#welcome_title{
+    font: 3.5vw cursive;
+    color: beige;
+}   
+
+input{
+    font: 2vw cursive;
+}
+button{
+    font: 2.5vw cursive;
+}
