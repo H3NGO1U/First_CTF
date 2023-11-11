@@ -7,7 +7,7 @@ connectedCallback(){
     Cool Website
 </a>
 <nav id="links_nav">
-    <a href="index.html">Home</a>
+    <a href="https://supersecuredwebsite.netlify.app/html/homepage.html">Home</a>
     <a href="#">Games</a>
     <a href="#">About</a>
 </nav>
