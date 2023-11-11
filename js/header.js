@@ -9,7 +9,7 @@ connectedCallback(){
 <nav id="links_nav">
     <a href="https://supersecuredwebsite.netlify.app/html/homepage.html">Home</a>
     <a href="#">Games</a>
-    <a href="#">About</a>
+    <a href="https://supersecuredwebsite.netlify.app/html/about.html">About</a>
 </nav>
 </nav>
 <style>
@@ -24,6 +24,7 @@ nav{
 a{
     font: 3vw monospace;
     padding: 10px;
+    color:#098221;
     text-decoration:none;
 }
 
