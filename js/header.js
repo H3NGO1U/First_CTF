@@ -1,7 +1,6 @@
-class Header extends HTMLElement{
   
-connectedCallback(){
-    this.innerHTML=
+let header = document.getElementsById()
+header.innerHTML=
 ` <nav id="main_nav">
 <a id="logo">
     Cool Website
@@ -35,4 +34,4 @@ a{
 }
 }
 
-customElements.define("header-comp", Header)
+customElements.define("div", Header)
