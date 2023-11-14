@@ -13,3 +13,6 @@ function signin(){
     }
     else alert("sorry")
 }
+
+you_know_ternary = true;
+let a = (you_know_ternary) ? 100 : 0;

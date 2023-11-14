@@ -4,10 +4,9 @@ function func(){
     header.classList.toggle("responsive")
 }
   
-let header = document.getElementById("header-comp");
+let header = document.getElementById("header");
 header.innerHTML=
 ` 
-
 <nav id="main_nav">
 <a id="logo">
     Cool Website
