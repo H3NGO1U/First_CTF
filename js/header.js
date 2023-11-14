@@ -4,7 +4,7 @@ function func(){
     header.classList.toggle("responsive")
 }
   
-let header = document.getElementById("header");
+let header = document.getElementById("header-comp");
 header.innerHTML=
 ` 
 <nav id="main_nav">
