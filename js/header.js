@@ -30,7 +30,7 @@ nav{
     height:50px;
 }
 .link{
-    font: 50px monospace;
+    font:4vw monospace;
     padding: 5px;
     color:white;
     text-decoration:none;
@@ -51,7 +51,7 @@ nav{
         position: absolute;
         width: 50%;
         height:100%;
-        top:15%;
+        top:10%;
         background-color:black;
         flex-direction:column;
         flex-wrap:wrap;
@@ -62,7 +62,7 @@ nav{
         display:block;
       }
     
-    .link a {
+    .link{
         display: block;
       }
     
