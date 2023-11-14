@@ -1,22 +1,23 @@
+html{
+    background: linear-gradient(#0c4525, #051c0f);
+    background-attachment: fixed;
+    font:20px monospace;
+    color:beige;
+}
 #login_box{
-    width: 50%;
     margin:auto;
-    font:3vw monospace;
     text-align: center;
     padding: 20px;
-    background-color:#a83297;
+    box-shadow:#2b6142 0px 20px 30px -10px;;
+    background-color:#010804;
+    border-radius: 20px;
 }
-label{
-    color: beige;
-}
-#welcome_title{
-    font: 3.5vw cursive;
-    color: beige;
-}   
 
-input{
-    font: 2vw cursive;
-}
 button{
-    font: 2.5vw cursive;
+    width:100px;
+}
+@media screen and (min-width:600px) {
+    #login_box{
+        width:50%;
+    }
 }
