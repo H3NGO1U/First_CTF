@@ -1,8 +1,11 @@
-html{
+
+h1{
     text-align: center;
-    background-color: #253b2e;
-    font: 3vw fantasy;
+    font: 2rem fantasy;
     color: white;
 }
 
+body{
+    background-color: #253b2e;
+}
 

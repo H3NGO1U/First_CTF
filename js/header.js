@@ -39,9 +39,13 @@ nav{
     background-color:#14241a;
 }
 #logo{
-    font: 50px Lucida Handwriting;
+    font: 2em Lucida Handwriting;
 }
 
+#main_nav{
+    display:flex;
+    align-items:center;
+}
 @media screen and (max-width:850px){
     #hamb{
         display:block;
