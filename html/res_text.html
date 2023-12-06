@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header-comp"></div>
+    <script src="../js/header.js"></script>
+    <figure>
+        <img src="../assets/sweet_cat.avif" alt="my img"/>
+        <figcaption> kittie </figcaption>
+    </figure>
+</body>
+<style>
+    figure{
+        width:50%;
+        margin:auto;
+        border: 2px solid black;
+        padding:10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+
+    @media screen and (max-width:400px) {
+        figure{
+            width:90%;
+        }
+    }
+</style>
+</html>

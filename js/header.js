@@ -23,32 +23,42 @@ header.innerHTML=
 <hr>
 <style>
 
-nav{
-    display:flex;
-    justify-content: space-between;
-    background-color: #253b2e;
-    height:50px;
-}
 .link{
-    font:4vw monospace;
-    padding: 5px;
-    color:white;
+    font:1.5rem monospace;
+    text-align:center;
     text-decoration:none;
+    color:#291f24;
+    padding:7vh;
+
 }
 .link:hover{
-    background-color:#14241a;
+    opacity: .7
 }
 #logo{
-    font: 2em Lucida Handwriting;
+    font: 1em arial;
 }
 
 #main_nav{
     display:flex;
+    background-color: #f5b0dd;
+    height:20vh;
+    justify-content:space-between;
     align-items:center;
 }
+
+#links_nav{
+    display:flex;
+    align-items: center;
+}
 @media screen and (max-width:850px){
+    body{
+        font-size:28px;
+    }
     #hamb{
         display:block;
+    }
+    #main_nav{
+        background-color:white;
     }
     #links_nav{
         display:none;
@@ -56,10 +66,11 @@ nav{
         width: 50%;
         height:100%;
         top:10%;
-        background-color:black;
+        background-color: #f5b0dd;
         flex-direction:column;
         flex-wrap:wrap;
         right:0;
+        border-radius:5px;
       }
     
       #links_nav.responsive {
@@ -80,6 +91,9 @@ nav{
     #hamb{
         display:none;
     }
+    body{
+        font-size:40px;
+      }
 }
 
 </style>
