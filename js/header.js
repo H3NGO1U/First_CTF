@@ -41,7 +41,7 @@ header.innerHTML=
 #main_nav{
     display:flex;
     background-color: #f5b0dd;
-    height:20vh;
+    height:50px;
     justify-content:space-between;
     align-items:center;
 }
