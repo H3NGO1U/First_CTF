@@ -18,9 +18,10 @@ header.innerHTML=
     <a class="link" href="homepage.html">Home</a>
     <a class="link" href="#">Games</a>
     <a class="link" href="about.html">About</a>
+    <a class="link" href="../index.html">log out</a>
 </div>
 </nav>
-<hr>
+<hr id="hrr">
 <style>
 
 .link{
@@ -41,7 +42,7 @@ header.innerHTML=
 #main_nav{
     display:flex;
     background-color: #f5b0dd;
-    height:50px;
+    height:75px;
     justify-content:space-between;
     align-items:center;
 }
@@ -84,6 +85,7 @@ header.innerHTML=
       #hamb {
         display: block;
       }
+     
     }
 
 
@@ -93,6 +95,9 @@ header.innerHTML=
     }
     body{
         font-size:40px;
+      }
+      #hrr{
+        border: 1px solid white;
       }
 }
 
